@@ -1,0 +1,64 @@
+@font-face {
+    font-family: naruto-font;
+    src: url("njnaruto.ttf");
+}
+
+body {
+    background-image: url("naruto-background.jpeg");
+    background-size: cover;
+    font-family: naruto-font, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    height: 100vh;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background-color: orange;
+    padding: 30px 50px;
+}
+
+#save-btn {
+    background: darkgreen;
+    padding: 30px 50px;
+}
+
+#all-content {
+    margin: 150px auto;
+    max-width: 600px;
+}
+#count-el {
+    background: black;
+    width: 60px;
+    height: 60px;
+    margin: 0 auto 50px; 
+    padding: 20px; 
+}
+
+#counter-heading {
+    background: black;
+    margin: 0 auto 20px;
+    padding: 20px; 
+}
